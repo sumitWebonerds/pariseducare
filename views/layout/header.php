@@ -24,14 +24,16 @@
 		<link href="<?php echo $BASE_PATH;?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 		<link href="<?php echo $BASE_PATH;?>/assets/css/custom.css" rel="stylesheet" type="text/css" media="all">
 		<!--coustom css-->
-		<link href="<?php echo $BASE_PATH;?>/assets/css/style.css" rel="stylesheet" type="text/css"/>
+	
 		<link href="<?php echo $BASE_PATH;?>/backend/sbadmin/dist/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
 		<!--hover-girds-->
 		<link rel="stylesheet" type="text/css" href="<?php echo $BASE_PATH;?>/assets/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $BASE_PATH;?>/assets/css/component.css" />
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-		
-		
+		<link href="<?php echo $BASE_PATH;?>/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+		<!--- Lightbox css-->
+		<link href="<?php echo $BASE_PATH;?>/assets/lib/lightbox/dist/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
+		<link href="<?php echo $BASE_PATH;?>/assets/css/style.css" rel="stylesheet" type="text/css"/>	
 	</head>
 	<body>
 		<div id="to-top">
@@ -50,14 +52,16 @@
 						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="navbar-collapse" id="bs-example-navbar-collapse-1 ">
-							<ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
+							<ul class="nav navbar-nav navbar-right margin-top cl-effect-2" id="nav">
 								<li><a class="<?php if($currentPage =='home'){echo 'active';}?>" href="<?php echo url::to('site/index');?>"><span data-hover="Home">Home</span></a></li>
 								<li><a href="<?php echo url::to('site/about');?>"><span data-hover="About">About</span></a></li>
 								<li><a href="<?php echo url::to('site/gallery');?>"><span data-hover="Gallery">Gallery</span></a></li>
-								<li><a href="<?php echo url::to('site/contact');?>"><span data-hover="Contact">contact</span></a></li>
 								<li><a href="<?php echo url::to('site/service'); ?>"><span data-hover="Services">Services</span></a></li>
 								<li><a href="<?php echo url::to('site/testimonial');?>"><span data-hover="Testimonials">Testimonials</span></a></li>
 								<li><a href="<?php echo url::to('site/result');?>"><span data-hover="result">Result</span></a></li>
+								<li><a href="<?php echo url::to('site/news');?>"><span data-hover="news">News</span></a></li>
+								<li><a href="<?php echo url::to('site/contact');?>"><span data-hover="Contact">Contact</span></a></li>
+
 							</ul>
 							<div class="clearfix"> </div>
 						</div>
