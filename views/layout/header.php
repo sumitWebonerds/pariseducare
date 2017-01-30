@@ -54,7 +54,7 @@
 								<li><a class="<?php if($currentPage =='home'){echo 'active';}?>" href="<?php echo url::to('site/index');?>"><span data-hover="Home">Home</span></a></li>
 								<li><a href="<?php echo url::to('site/about');?>"><span data-hover="About">About</span></a></li>
 								<li><a href="<?php echo url::to('site/gallery');?>"><span data-hover="Gallery">Gallery</span></a></li>
-								<li><a href="<?php echo url::to('site/contact');?>"><span data-hover="Contact">Contact</span></a></li>
+								<li><a href="<?php echo url::to('site/contact');?>"><span data-hover="Contact">contact</span></a></li>
 								<li><a href="<?php echo url::to('site/service'); ?>"><span data-hover="Services">Services</span></a></li>
 								<li><a href="<?php echo url::to('site/testimonial');?>"><span data-hover="Testimonials">Testimonials</span></a></li>
 								<li><a href="<?php echo url::to('site/result');?>"><span data-hover="result">Result</span></a></li>
