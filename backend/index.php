@@ -1,0 +1,40 @@
+<?php 
+		 //display error
+		ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+		error_reporting(E_ALL);
+		include_once "../constants.php";
+		require_once "../PHPMailer/class.phpmailer.php";
+		require_once "../PHPMailer/class.smtp.php";
+		require_once '../PHPExcel/PHPExcel/IOFactory.php';
+		require_once "html.php";
+		require_once "../common/model/user.php";
+		require_once "../common/model/loginform.php";
+		require_once "../common/model/url.php";
+		require_once "../common/model/slider.php";
+		require_once "../common/model/testimonials.php";
+		require_once "../common/model/service.php";
+		require_once "../common/model/gallery.php";
+		require_once "../common/model/news.php";
+		require_once "../common/model/result.php";
+		require_once "../common/model/subscribe.php";
+		require_once "../common/model/admission.php";
+		require_once "../common/model/attendence.php";
+		require_once "../common/model/coaching.php";
+		 if(isset($_GET['a']))
+		 {
+		 	$action = explode('/', $_GET['a']);
+		 	require_once "controllers/{$action[0]}Controller.php";
+		 		$class = ucfirst($action[0])."Controller";
+		 		$method = "action".$action[1];
+				$controller = new $class; 
+			 	$controller->$method();
+		 }
+		 else
+		 {
+		 	require_once "controllers/siteController.php";
+			$controller = new SiteController();
+		 	$controller->actionIndex();
+		 }
+
+?>

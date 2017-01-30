@@ -1,0 +1,2 @@
+[30-Dec-2016 09:28:34 Asia/Kolkata] PHP Fatal error:  Class 'SMTP' not found in /home/pariseducare/public_html/PHPMailer/class.phpmailer.php on line 1466
+[30-Dec-2016 09:46:32 Asia/Kolkata] PHP Fatal error:  Class 'SMTP' not found in /home/pariseducare/public_html/PHPMailer/class.phpmailer.php on line 1466

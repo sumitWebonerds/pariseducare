@@ -1,0 +1,43 @@
+[06-Oct-2016 13:17:33 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[06-Oct-2016 13:17:33 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[06-Oct-2016 13:17:33 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[06-Oct-2016 14:02:21 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[06-Oct-2016 14:02:21 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[06-Oct-2016 14:02:21 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[06-Oct-2016 14:02:28 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[06-Oct-2016 14:02:28 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[06-Oct-2016 14:02:28 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[06-Oct-2016 14:54:52 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[06-Oct-2016 14:54:52 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[06-Oct-2016 14:54:52 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[11-Oct-2016 17:23:33 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[11-Oct-2016 17:23:33 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[11-Oct-2016 17:23:33 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[14-Oct-2016 14:43:10 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[14-Oct-2016 14:43:10 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[14-Oct-2016 14:43:10 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[15-Oct-2016 21:27:32 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/pariseducare/public_html/views/layout/new.php on line 2
+[15-Oct-2016 21:27:32 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[15-Oct-2016 21:27:32 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[15-Oct-2016 21:27:32 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[15-Oct-2016 21:27:57 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/pariseducare/public_html/views/layout/new.php on line 2
+[15-Oct-2016 21:27:57 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[15-Oct-2016 21:27:57 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[15-Oct-2016 21:27:57 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[15-Oct-2016 21:28:25 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/pariseducare/public_html/views/layout/new.php on line 2
+[15-Oct-2016 21:28:25 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[15-Oct-2016 21:28:25 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[15-Oct-2016 21:28:25 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[15-Oct-2016 21:30:11 Asia/Kolkata] PHP Notice:  Undefined index: email in /home/pariseducare/public_html/views/layout/new.php on line 2
+[15-Oct-2016 21:30:11 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[15-Oct-2016 21:30:11 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[15-Oct-2016 21:30:11 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[05-Nov-2016 15:47:55 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[05-Nov-2016 15:47:55 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[05-Nov-2016 15:47:55 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[05-Nov-2016 15:48:00 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[05-Nov-2016 15:48:00 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[05-Nov-2016 15:48:00 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
+[05-Nov-2016 15:48:22 Asia/Kolkata] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/pariseducare/public_html/views/layout/new.php on line 4
+[05-Nov-2016 15:48:22 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 11
+[05-Nov-2016 15:48:22 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/pariseducare/public_html/views/layout/new.php on line 15
