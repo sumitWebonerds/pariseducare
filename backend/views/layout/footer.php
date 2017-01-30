@@ -8,10 +8,11 @@
 
 	<script src="sbadmin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="sbadmin/bower_components/metisMenu/dist/metisMenu.min.js"></script>
-	<script type="text/javascript" src="sbadmin/bower_components/raphael/raphael-min.js"></script>
-	<script type="text/javascript" src="sbadmin/bower_components/morrisjs/morris.min.js"></script>
-  <script type="text/javascript" src="sbadmin/bootstrap/dist/js/dataTables.bootstrap.min.js"></script>
+	<!-- <script type="text/javascript" src="sbadmin/bower_components/raphael/raphael-min.js"></script>
+	<script type="text/javascript" src="sbadmin/bower_components/morrisjs/morris.min.js"></script> -->
+ 
     <script type="text/javascript" src="sbadmin/bower_components/bootstrap/dist/js/jquery.dataTables.min.js"></script>
+     <script type="text/javascript" src="sbadmin/bower_components/bootstrap/dist/js/dataTables.bootstrap.min.js"></script>
 	<!-- <script type="text/javascript" src="sbadmin/js/morris-data.js"></script> -->
 	<script type="text/javascript" src="sbadmin/dist/js/sb-admin-2.js"></script>
   <script type="text/javascript" src="sbadmin/dist/js/jquery-ui.min.js"></script>

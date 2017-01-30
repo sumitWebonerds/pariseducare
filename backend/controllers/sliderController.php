@@ -78,6 +78,8 @@ class SliderController extends BaseController{
 		$this->render("slider/list",array("slider"=>$slider));
 	}
 
+	
+
 
 }
 ?>

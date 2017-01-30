@@ -1,5 +1,5 @@
 <div class="form-group"></div>
-<table class="table table-responsive table-bordered">
+<table class="table table-responsive table-bordered" id="example">
 	<thead>
 		<th>Id</th>
 		<th>Email</th>

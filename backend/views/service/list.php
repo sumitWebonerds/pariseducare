@@ -1,11 +1,10 @@
 <a href="<?php echo HTML::url('service/create');?>"><button class="btn btn-success">Add Service</button></a>
 <div class="form-group"></div>
-<table class="table table-responsive table-bordered">
+<table class="table table-responsive table-bordered" id="example">
 	<thead>
 		<th>Id</th>
 		<th>Title</th>
 		<th>Information</th>
-		<th>Action</th>
 		<th>Action</th>
 	</thead>
 	<tbody>
@@ -19,9 +18,9 @@
 				<td><?php echo $service['information'];?></td>
 				
 
-				<td>	<a href="<?php echo HTML::url('service/create',array('id'=>$service['id']));?>"><button class="btn btn-info btn-xs">Update</button></a></td>
-				<td>
-					<a href="<?php echo HTML::url('service/delete',array('id'=>$service['id']));?>"><button class="btn btn-danger btn-xs">Delete</button></a>
+				<td>	
+					<a href="<?php echo HTML::url('service/create',array('id'=>$service['id']));?>"><i class="glyphicon glyphicon-pencil"></i></a>
+					<a href="<?php echo HTML::url('service/delete',array('id'=>$service['id']));?>"><i class="glyphicon glyphicon-trash"></i></a>
 				</td>
 		</tr>
 

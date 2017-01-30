@@ -73,5 +73,14 @@ class CoachingController extends BaseController{
 		$coaching=$model->findAll();
 		$this->render("coaching/index",array('coaching'=>$coaching));
 	}
+	public function actionView(){
+	$model=new coaching();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$coaching=$model->findByPk($id);
+	$this->render('coaching/view',array("coaching"=>$coaching));
+} 
 }
 ?>
