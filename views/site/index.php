@@ -1,4 +1,6 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!---Carousel -->
+<section class="slider">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
    <div class="carousel-inner" role="listbox">
       <?php $i=0; foreach($slider as $slider){
            if($i===0){
@@ -36,7 +38,8 @@
         <span class="sr-only">Next</span>
       </a>
  </div>
-
+</section>
+<!-- /Carousel -->
 <div class="welcome">
 	<div class="container">
 		<h2>Welcome To Pari&#39;s EduCare</h2>
@@ -47,20 +50,23 @@
 <div class="welcome-grids">
 	<div class="container">
 		<div class="row">
+		<div class="services-text">
+			<h3>Services</h3>
+		</div>
 		<div class="welcome-gridsinfo">
 		<?php foreach($service as $service){?>
 		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
-			<div class="col-md-12" style="border: solid 1px #ccc;">
+			<div class="col-md-12 service-information" style="border: solid 1px #ccc;">
 			<h3><?php echo $service['name'];?></h3>
-			<div>
+			<div class="info">
 				<?php
 					if(strlen($service['information'])>30){
-					 echo substr($service['information'],0,290);
+					 echo substr($service['information'],0,250);
 					}
 				?>
 			</div>		
-			<div>
-				<a class="pull-right" href="<?php echo url::to("site/service");?>"> Read More ></a>	
+			<div class="btn-readmore">
+				<a class="pull-right btn btn-default" href="<?php echo url::to("site/service");?>"> Read More</a>	
 			</div>	
 				
 				
@@ -75,47 +81,62 @@
 
 <div class="effect-grid">
 	<div class="container">
+	<div class="gallery-text">
+		<h3>Gallery</h3>
+	</div>
 		<ul class="grid cs-style-5">
 			<?php foreach($gallery as $gallery){ ?>
 				<li>
 					<figure>
-                            <img src="<?php echo "upload/gallery/". $gallery['name'];?>" alt="img04">
+                            <img src="<?php echo "upload/gallery/". $gallery['name'];?>" alt="img04" class="grid-img">
 						<figcaption>
-							<h3>Preparing</h3>
-							<span>Jacob Cummings</span>
-							<a href="about.html">Read More</a>
+							<a href="<?php echo url::to("site/gallery"); ?>">View More</a>
 						</figcaption>
 					</figure>
 				</li>
 			<?php } ?>
 		</ul>
-	</div>
+	</div>                                                   
 </div>
-<div class="container">
-	<div class="testimonials">
-			<div class="testimonial-nfo">
-				<h3>Testimonials</h3>	
-			</div>
-			<div class="testimonal-grids">
-			<?php foreach ($testimonial as $testimonial) {?>
-				<div class=" col-md-4 testimonial-grid">
-					<div class="testi-info">
-						<p><span>&#34;</span>
-							<?php
-							if(strlen($testimonial['content'])>30){
-							 echo substr($testimonial['content'],0,300);
-							}?>
-						</p>
-						<p style="font-size:20px; text-align:right;"><?php echo $testimonial['author']?></p>					
-					</div>
+<!-- Testimonials -->
+<?php 
+	if(empty($testimonial))
+	{
+		echo '';
+	}
+	else if(!empty($testimonial))
+	{
+	?>
+			<div class="container">
+				<div class="testimonials">
+
+					<div class="testimonial-nfo">
+							<h3>Testimonials</h3>	
+						</div>
+						<div class="testimonal-grids">
+						<?php foreach ($testimonial as $testimonial) {?>
+							<div class=" col-md-4 testimonial-grid">
+								<div class="testi-info">
+									<p><span>&#34;</span>
+										<?php
+										if(strlen($testimonial['content'])>30){
+										 echo substr($testimonial['content'],0,300);
+										}?>
+									</p>
+									<p style="font-size:20px; text-align:right;"><?php echo $testimonial['author']?></p>					
+								</div>
+							</div>
+							<?php } ?>
+						</div>
+						<div class="pull-right">
+							<a href="<?php echo url::to("site/testimonial")?>">View More >></a>
+						</div>		
 				</div>
-				<?php } ?>
 			</div>
-			<div class="pull-right">
-				<a href="<?php echo url::to("site/testimonial")?>">View More >></a>
-			</div>
-	</div>
-</div>
+<?php
+}
+?>
+<!--/Testimonials -->
 <!--specfication-->
 <div class="news">
 		<div class="container">
@@ -125,7 +146,7 @@
 			<div class="news-grids">
 			<?php foreach($news as $news) { ?>
 				<div class="col-md-3 news-grid">
-					<a href="#"><h4><?php //echo $news['title'];
+					<a href="<?php echo HTML::url("news/list",array('id'=>$news['id'])); ?>"><h4><?php //echo $news['title'];
 										//echo strlen($news['title']);
 										if(strlen($news['title'])<=25){
 											echo substr($news['title'],0,25);	

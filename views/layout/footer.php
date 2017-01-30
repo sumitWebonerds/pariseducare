@@ -69,7 +69,7 @@
 		<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!----> 
 </div>
-	
+		
 	<!--script-->
 	 <script src="<?php echo $BASE_PATH;?>/assets/js/jquery.min.js"></script>
 	<!-- js -->
@@ -78,6 +78,7 @@
 	<!--fonts-->
 
 	<!--/fonts-->
+	<script src="<?php echo $BASE_PATH;?>/assets/lib/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
 	<script src="<?php echo $BASE_PATH;?>/assets/js/modernizr.custom.js"></script>
 	<!--/hover-grids-->
 	<script type="text/javascript" src="<?php echo $BASE_PATH;?>/assets/js/move-top.js"></script>
@@ -170,6 +171,13 @@ function validateEmail(email) {
       });
   </script>
 	<!--/script-->
-
+	<script>
+		lightbox.option({
+			'wrapAround': true;
+			'alwaysShowNavOnTouchDevices':true;
+			'maxWidth' :100%;
+			'maxHeight' :100%;
+		})
+	</script>
 	</body>
 </html>
