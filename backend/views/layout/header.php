@@ -17,6 +17,7 @@ include ("../constants.php");
 <link href="sbadmin/bower_components/morrisjs/morris.css" rel="stylesheet" type="text/css"/>
 <link href="sbadmin/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
+<link rel="stylesheet" type="text/css" href="sbadmin/dist/css/style.css">
 </head>
 	<body>
 		<div class="header" id="home">
@@ -54,103 +55,100 @@ include ("../constants.php");
                             <a href="<?php echo url::to("site/index");?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>slider<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a href="<?php echo url::to('slider/list')?>"><i class="fa fa-bar-chart-o fa-fw"></i>slider</a>
+                            <!-- <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('slider/list')?>">Index</a>
+                                    <a href="<?php //echo url::to('slider/list')?>">Index</a>
                                 </li>
                                 <li>
-                                   <a href="<?php echo url::to('slider/create');?>">Create</a>
+                                   <a href="<?php //echo url::to('slider/create');?>">Create</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li>
-                            <a href="#"><i class=""></i>Testimonials<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a href="<?php echo url::to('testimonials/list')?>"><i class=""></i>Testimonials</a>
+                            <!-- <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('testimonials/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('testimonials/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('testimonials/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('testimonials/create');?>">Create</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                          <li>
-                            <a href="#"><i class=""></i>News<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a href="<?php echo url::to('news/list');?>"><i class=""></i>News</a>
+                            <!-- <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('news/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('news/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('news/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('news/create');?>">Create</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                          <li>
-                            <a href="#"><i class=""></i>Services<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo url::to('service/list');?>">Index</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo url::to('service/create');?>">Create</a>
-                                </li>
-                            </ul>
+                            <a href="<?php echo url::to('service/list');?>"><i class=""></i>Services</a>
                         </li>
                         <li>
-                            <a href="#"><i class=""></i>Gallery<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('gallery/list');?>"><i class=""></i>Gallery</a>
+                            <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('gallery/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('gallery/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('gallery/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('gallery/create');?>">Create</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li>
-                            <a href="#"><i class=""></i>Result<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('result/list');?>"><i class=""></i>Result</a>
+                            <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('result/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('result/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('result/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('result/create');?>">Create</a>
                                 </li>
                             </ul>
-                        </li>
+ -->                        </li>
                         <li>
-                            <a href="#"><i class=""></i>Admission<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('admission/list');?>"><i class=""></i>Admission</a>
+                            <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('admission/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('admission/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('admission/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('admission/create');?>">Create</a>
                                 </li>
                             </ul>
-                        </li>
+                     -->    </li>
                         <li>
-                            <a href="#"><i class=""></i>Coaching Form<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('coaching/list');?>"><i class=""></i>Coaching Form</a>
+                            <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('coaching/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('coaching/list');?>">Index</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('coaching/create');?>">Create</a>
+                                    <a href="<?php //echo url::to('coaching/create');?>">Create</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li>
-                            <a href="#"><i class=""></i>Subscribe<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('subscribe/list');?>"><i class=""></i>Subscribe</a>
+                            <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('subscribe/list');?>">Index</a>
+                                    <a href="<?php //echo url::to('subscribe/list');?>">Index</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li>
-                            <a href="#"><i class=""></i>Attendence Report<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('attendence/form');?>"><i class=""></i>Attendence Report<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="<?php echo url::to('attendence/form');?>">Upload</a>
@@ -166,5 +164,5 @@ include ("../constants.php");
         </nav>
 	</div>
         <div id="wrapper">
-        <div id="page-wrapper">
+        <div id="page-wrapper" style="min-height: 800px !important;">
         <div class="clearfix">&nbsp;</div>

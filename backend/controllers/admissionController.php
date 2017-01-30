@@ -85,5 +85,14 @@ class AdmissionController extends BaseController{
 		$model->DeleteByPk($model->id);
 		$this->redirect("admission/list");
 	}
+	public function actionView(){
+	$model=new admission();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$admission=$model->findByPk($id);
+	$this->render('admission/view',array("admission"=>$admission));
+} 
 }
 ?>
