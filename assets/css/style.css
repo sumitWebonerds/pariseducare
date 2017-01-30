@@ -817,89 +817,10 @@ color: #FFFFFF;
     margin: 0;
     font-size: 2.7em
 }
-.about{
-	padding:3em 0;
-}
-.about-info-grids{
-	border-left :solid 1px lightgrey;
-  /*height: 1500px;
-  width: 1000px;*/
-}
-.about-pic img {
-	padding-left:0;
-  
-  margin-left :-70px;
-  margin-top: 50px;
-  /*margin-bottom: 100px;*/
-}
-.about-pic-2 img
+.about-content
 {
-  margin-left: -80px;
-  margin-top: 80px;
-}
-.about-pic-info p , .about-pic-2-info p , .about-pic-3-info p{
-	padding-right:5px;
   text-align: justify;
-  line-height: 30px;
-  color: #777;
-}
-.about-pic-info h3 {
-font-size: 1.8em;
-color: #737373;
-line-height: 1.3em;
-padding-top: 5px;
-margin-top: 30px;
-}
-.about-pic-2-info h3
-{
-  font-size: 1.8em;
-color: #737373;
-line-height: 1.3em;
-padding-top: 5px;
-margin-top: 60px; 
-}
-.about-pic-1 img 
-{
-  
-  margin-top: 180px;
-  margin-left: -480px;
-}
-.about-pic-3 img 
-{
-  margin-left :-80px;
-  margin-top: 230px;
-}
-.about-pic-1-info h3 {
-font-size: 1.8em;
-color: #737373;
-line-height: 1.3em;
-padding-top: 5px;
-margin-top: -280px;
-margin-left: 50px;
-}
-.about-pic-1-info p{
-  padding-right:5px;
-  text-align: justify;
-  line-height: 30px;
-  color: #777;
-  
-}
-.about-pic-3-info h3
-{
-  font-size: 1.8em;
-  color: #737373;
-  line-height: 1.3em;
-  padding-top: 5px;
-  margin-top: 80px;
-}
-.about-pic-2-info ul{
-	margin-top:1em;
-}
-.about-pic-2-info li {
-  margin: 0 0 10px 20px;
-  color: #9A9598;
-  font-size: 0.9em;
-  text-decoration: none;
+  line-height: 18px;
 }
 .testimonals{
     margin-top: 6em;
@@ -2550,6 +2471,10 @@ ul.p_n-list li a:hover{
 .content
 {
   margin-top: 10px;
+}
+.content p
+{
+  text-align: justify;
 }
 
 .news-img
