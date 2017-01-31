@@ -76,7 +76,7 @@ width: 100% !important;
 .error{
     color:red;
 }
-.card{
+.card-result{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
 }
 .res-img{
@@ -90,3 +90,27 @@ width: 100% !important;
 .student_name{
     text-transform: capitalize;
 }
+.testimonial-information
+{
+    max-height:800px;
+    min-height: 170px;
+    box-shadow: 0 9px 10px lightgrey;
+    border-radius: 10px;
+}
+.testimonial-content
+{
+   font-family: 'Lobster Two', cursive;
+   font-style: italic;
+  padding-top: 10px;
+  text-align: justify;
+}
+.testimonials
+{
+    margin-top: 20px;
+}
+.testimonial-author
+{
+    border-bottom:solid 1px lightgrey;
+    padding: 5px;
+}
+

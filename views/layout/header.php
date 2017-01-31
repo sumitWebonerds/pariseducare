@@ -22,7 +22,7 @@
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!--bootstrap-->
 		<link href="<?php echo $BASE_PATH;?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-		<link href="<?php echo $BASE_PATH;?>/assets/css/custom.css" rel="stylesheet" type="text/css" media="all">
+
 		<!--coustom css-->
 	
 		<link href="<?php echo $BASE_PATH;?>/backend/sbadmin/dist/css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
@@ -30,10 +30,12 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $BASE_PATH;?>/assets/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $BASE_PATH;?>/assets/css/component.css" />
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
 		<link href="<?php echo $BASE_PATH;?>/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 		<!--- Lightbox css-->
 		<link href="<?php echo $BASE_PATH;?>/assets/lib/lightbox/dist/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
-		<link href="<?php echo $BASE_PATH;?>/assets/css/style.css" rel="stylesheet" type="text/css"/>	
+		<link href="<?php echo $BASE_PATH;?>/assets/css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="<?php echo $BASE_PATH;?>/assets/css/custom.css" rel="stylesheet" type="text/css" media="all">	
 	</head>
 	<body>
 		<div id="to-top">

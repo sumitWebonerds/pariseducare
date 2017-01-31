@@ -177,7 +177,7 @@ function validateEmail(email) {
 			'alwaysShowNavOnTouchDevices':true;
 			'maxWidth' :100%;
 			'maxHeight' :100%;
-		})
+		});
 	</script>
 	</body>
 </html>

@@ -14,7 +14,7 @@
 							 ?>
 							<div class="view view-tenth">
 							<a href="<?php echo "upload/gallery/". $gallery['name']?>" data-lightbox="paridaycare">
-								<img alt="<?php echo $gallery['title'];?>" src="<?php echo "upload/gallery/". $gallery['name']?>" style="width:100%;height: 300px;" title="<?php echo $gallery['title'];?>" /></a>
+								<img alt="<?php echo $gallery['title'];?>" src="<?php echo "upload/gallery/". $gallery['name']?>" style="width:100%;height: 300px;" title="<?php echo $gallery['title'];?>"  class="img-fluid"/></a>
 								<!-- <div class="mask">
 									<h3><?php echo $gallery['title'];?></h3>
 									<p><?php echo (!empty($gallery['description']))?$gallery['description']:'';?></p>

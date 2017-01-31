@@ -457,7 +457,7 @@ fieldset#body {
 }
 .service-information
 {
-  height: 280px;
+  min-height: 280px;
 
 }
 .services-text h3
@@ -514,33 +514,10 @@ fieldset#body {
   margin: 0; 
 }
 /*-- testimonial --*/
-.testimonials {
-    position: relative;
-    text-align: center;
-    margin-bottom: 0;
-    min-height: 307px;
-}
-.testmonials div.head-section {
-  margin-top: 1em;
-}
-.testimonial-nfo h3 {
-  color: #555;
-  font-size: 40px;
-  font-weight: 300;
-  margin:5px;
-}
-.testimonial-grid p {
-    font-size: 1.2em;
-    font-style: italic;
-    color: #FFF;
-    text-align: center;
-    width: 86%;
-    margin: 0em auto 0;
-    font-weight: 400;
-}
-.testimonial-grid p span {
-    font-size: .85em;
-  vertical-align: middle;
+.panel-heading > div 
+{
+  border :solid 1px black !important;
+
 }
 /*-- /testimonial --*/
 /*-- news --*/
@@ -587,6 +564,7 @@ fieldset#body {
 }
 .news-grid a:hover{
 	text-decoration:none;
+  color: #E1009F;
 }
 .news-grid span {
     font-size: 12px;
@@ -817,10 +795,15 @@ color: #FFFFFF;
     margin: 0;
     font-size: 2.7em
 }
-.about-content
+.about-content p
 {
   text-align: justify;
   line-height: 18px;
+  color: #A9A9A9;
+}
+.about-content h3
+{
+  color: #888;
 }
 .testimonals{
     margin-top: 6em;
@@ -1294,8 +1277,16 @@ ul.p_n-list li a:hover{
 	.testimonials {
 	    margin-bottom: 0em;
 	    padding: 1em 0 0em;
-	         min-height: 265px;
+	   min-height: 265px;
 	}
+  .testimonial-grids
+  {
+    min-height: 250px;
+  }
+  .testi-info p
+  {
+      min-height: 250px;
+  }
 	.team-grid h4 {
 	    font-size: 1.1em;
 	}
@@ -2475,6 +2466,8 @@ ul.p_n-list li a:hover{
 .content p
 {
   text-align: justify;
+  color: #A9A9A9;
+  line-height: 18px;
 }
 
 .news-img
@@ -2526,9 +2519,9 @@ a .similar-img
 .service-name
 {
   
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
   margin-top: 20px;
   background-color: #C0C0C0;
 }
@@ -2588,5 +2581,9 @@ a .similar-img
   .grid-img
   {
     margin :auto;
+  }
+
+  .panel-heading{
+    background-color: red !important;
   }
 /*--/responsive--*/

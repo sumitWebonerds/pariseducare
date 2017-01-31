@@ -1,24 +1,29 @@
-<div class="container-fluid">
-
-	<div class="testimonials">
-			<div class="testimonial-info">
-				<h3>Testimonials</h3>	
-			</div>
-		
-			<?php  foreach ( $testimonial as $testimonial) {?>
-					<div class="form-group">
-					<div class="testimonal-grids">
-						<div class="testimonial-grid">
-							<div class="testi-info">
-								<p><span>&#34;</span> <?php echo $testimonial['content']; ?><span> &#34;</span>
-								</p>
-								<p style="font-size:20px; text-align:right;"><?php echo $testimonial['author'];?></p>					
-							</div>
-						</div>
-					</div>
-				</div>
-			<?php } ?>
-		</div>
-
+<div class="banner banner5">
+	<div class="container">
+	<h2>Testimonials</h2>
 	</div>
-	<div class="form-group"></div>
+</div>
+<div class="container">
+<div class="row">
+		<div class="testimonials ">
+			<?php foreach ($testimonial as $testimonial) {
+			?>
+			
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-md-12 testimonial-information" style="border: solid 1px #ccc;">
+					<div class="testimonial-author text-center">
+					<?= $testimonial['author']?>
+					</div>
+					<div class="testimonial-content">
+						<i class="fa fa-quote-left"></i>  <?= $testimonial['content']?>	
+					</div>		
+						
+				</div>		
+			</div>
+			<?php	
+			}
+			?>			
+		</div>
+	</div>
+	<div>&nbsp;</div>
+</div>
