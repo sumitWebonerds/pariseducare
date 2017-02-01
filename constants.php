@@ -5,7 +5,7 @@ $UPLOAD_PATH = dirname(__FILE__)."/upload/";
 if($_SERVER['HTTP_HOST'] == 'localhost')
 {
 	
-		$BASE_PATH	= "http://localhost/pariseducare";
+		$BASE_PATH	= "http://localhost/paridaycare";
 
 }else
 {

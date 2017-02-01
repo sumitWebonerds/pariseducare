@@ -17,10 +17,11 @@
 							<i class="fa fa-calender-o" class="icon-color"></i> Date : <?= $news['date'] ?>
 							<i class="fa fa-clock-o" class="icon-color"></i> Time : <?= $news['time'] ?>
 						</div>
-						<div class="col-md-offset-8 readmore">
-							<a href="<?php echo HTML::url("news/list",array('id'=>$news['id']));?>" class="pull-right">Read More</a>
+						<div class="col-md-offset-8 btn-readmore">
+							<a href="<?php echo HTML::url("news/list",array('id'=>$news['id']));?>" class="pull-right  btn btn-default">Read More</a>
 						</div>
 					</div>
+					<div class="clearfix">&nbsp;</div>
 				</div>
 		<?php		
 			}

@@ -5,7 +5,7 @@
 ?>
 				<?php foreach($result as $result) {?>
 					<div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 news-grid">
-	                   	<div class="col-md-12 card">
+	                   	<div class="col-md-12 card-result">
 						 <!--Card image-->
 						 <img  class="img-responsive res-img" src="<?php echo "upload/result/".$result['image'];?>"  alt="<?php echo $result['name'];?>" >
 						        <a href="#">

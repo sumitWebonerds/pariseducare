@@ -10,31 +10,21 @@
 				<div class="col-md-4">
 					<img src="upload/gallery/IMG_20160809_110634813_HDR_2030796898.jpg" class="img-responsive thumbnail" alt="img04 ">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 about-content">
 					<h3 class="text-left"><strong>Our Vision</strong></h3>
 						 <p>To provide children with an enriched learning environment that encourages social and emotional growth, and promotes a strong educational foundation for the future. Pari’s Educare is mainly focussing on to the core values of caring, honesty, respect and responsibility. Early childhood education and biotechnology came together and created <strong>‘Pari’s Day Care, Preschool, Coaching and Activity Center’</strong>.</p>
 				</div>
 			</div>
 		</div>
 				<div class="clearfix">&nbsp;&nbsp;</div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="col-md-4">
-					<img src="upload/gallery/IMG_20160809_110634813_HDR_2030796898.jpg" class="img-responsive thumbnail" alt="img04">
-				</div>
-				<div class="col-md-8">
-					<h3 class="text-left"><strong>Our Vision</strong></h3>
-						 <p>To provide children with an enriched learning environment that encourages social and emotional growth, and promotes a strong educational foundation for the future. Pari’s Educare is mainly focussing on to the core values of caring, honesty, respect and responsibility. Early childhood education and biotechnology came together and created <strong>‘Pari’s Day Care, Preschool, Coaching and Activity Center’</strong>.</p>
-				</div>
-			</div>
-		</div>
-				<div class="clearfix">&nbsp;&nbsp;</div>
+		
+				
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-4">
 					<img src="upload/gallery/IMG_20160811_110536634_HDR.jpg" class="img-responsive thumbnail" alt="img05">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 about-content">
 					<h3 class="text-left"><strong>Walk into Second Home of Children..Look beyond daycare!</strong></h3>
 				 		<p>We understand that choosing the best child care and child development program is one of the most important decisions you will make as a parent. At <strong>‘Pari’s Day Care, Preschool, Coaching and Activity Center’,</strong> we recognize it is essential that we become an extended family. </p>
 				</div>
@@ -46,7 +36,7 @@
 				<div class="col-md-4">
 					<img src="upload/gallery/IMG_20160811_110536634_HDR.jpg" class="img-responsive thumbnail" alt="img05">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 about-content">
 					<h3 class="text-left"><strong>Our Aim</strong></h3>
 				 		<blockquote>
 				 			<p><strong>"Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid."</strong></p>
