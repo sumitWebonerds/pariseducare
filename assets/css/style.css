@@ -821,7 +821,7 @@ color: #FFFFFF;
   padding: 25px 30px 25px 30px;
   border-radius: 0;
   line-height: 1.5em;
-  font-size: .85em;
+  font-size: 15px;
   font-style: italic;
   color: #7d7d7d;
   transition:0.5s all;
@@ -829,6 +829,8 @@ color: #FFFFFF;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+  font-family: 'Lobster Two', cursive;
+   
 }
 .testi-info p:hover{
 	color:#fff;
