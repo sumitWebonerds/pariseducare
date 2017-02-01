@@ -25,8 +25,11 @@
 
 				<td>
 					<a href="<?php echo HTML::url('news/create',array('id'=>$news['id']));?>">
-					<i class="glyphicon glyphicon-pencil"></i>
+					<i class="glyphicon glyphicon-pencil"></i></a>
 					<a  onClick="confirmBox()"href="<?php echo HTML::url('news/delete',array('id'=>$news['id']));?>"><i class="glyphicon glyphicon-trash"></i></a>
+					<a href="<?php echo HTML::url('news/view',array('id'=>$news['id']));?>"><i class="glyphicon glyphicon-eye-open"></i></a>
+
+
 				</td>
 		</tr>
 

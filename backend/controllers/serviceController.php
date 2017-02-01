@@ -52,5 +52,16 @@ class ServiceController extends BaseController{
 		$service=$model->findAll();
 		$this->render("service/list",array('service'=>$service));
 	}
+    
+    public function actionView(){
+	$model=new Service();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$service=$model->findByPk($id);
+	$this->render('service/view',array("service"=>$service));
+} 
+
 }
 ?>

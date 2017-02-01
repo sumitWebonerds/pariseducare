@@ -83,7 +83,15 @@ public function actionDelete(){
 		$news=$model->findAll();
 		$this->render("news/list",array("news"=>$news));
 	}
-
+	public function actionView(){
+	$model=new News();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$news=$model->findByPk($id);
+	$this->render('news/view',array("news"=>$news));
+} 
 
 }
 ?>

@@ -19,6 +19,7 @@
 				<td>
 				<a href="<?php echo HTML::url('testimonials/create',array('id'=>$testimonial['id']));?>" ><i class="glyphicon glyphicon-pencil"></i></a>
 					<a onClick="confirmBox()" href="<?php echo HTML::url('testimonials/delete',array('id'=> $testimonial['id']));?>"><i class="glyphicon glyphicon-trash"></i></a>	
+					<a href="<?php echo HTML::url('testimonials/view',array('id'=> $testimonial['id']));?>"><i class="glyphicon glyphicon-eye-open"></i></a>	
 				</td>
 		</tr>
 

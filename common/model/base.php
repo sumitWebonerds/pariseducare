@@ -13,7 +13,7 @@ class Base{
 
 		if($_SERVER['HTTP_HOST'] !='localhost')
 		{
-			$this->conn = new PDO("mysql:host=localhost;dbname=paris_daycare_db",'root','');
+			$this->conn = new PDO("mysql:host=localhost;dbname=parisedu_pdaycare_db",'parisedu_care','PariS123');
 		}
 		else
 		{

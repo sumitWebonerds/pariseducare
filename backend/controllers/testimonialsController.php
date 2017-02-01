@@ -46,10 +46,19 @@ class TestimonialsController extends BaseController{
 		$this->render("testimonials/list",array("testimonial"=>$testimonial));
 	}
 	public function actionDelete(){
-		$model=new Testimonial();
+		$model=new Testimonial(); 
 		$model->id=$_GET['id'];
 		$model->DeleteByPk($model->id);
 		$this->redirect("testimonials/list");
 	}
+	public function actionView(){
+	$model=new Testimonial();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$testimonial=$model->findByPk($id);
+	$this->render('testimonials/view',array("testimonial"=>$testimonial));
+} 
 }
 ?>
