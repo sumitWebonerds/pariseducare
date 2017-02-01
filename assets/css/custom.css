@@ -96,6 +96,7 @@ width: 100% !important;
     min-height: 170px;
     box-shadow: 0 9px 10px lightgrey;
     border-radius: 10px;
+     margin-top: 25px;
 }
 .testimonial-content
 {
@@ -108,7 +109,7 @@ width: 100% !important;
 .testimonials
 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 }
 .testimonial-author
 {
