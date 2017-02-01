@@ -34,8 +34,11 @@
 		<link href="<?php echo $BASE_PATH;?>/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 		<!--- Lightbox css-->
 		<link href="<?php echo $BASE_PATH;?>/assets/lib/lightbox/dist/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all">
+			<link rel="stylesheet" href="<?php echo $BASE_PATH;?>/assets/css/simplePagination.css" />	
 		<link href="<?php echo $BASE_PATH;?>/assets/css/style.css" rel="stylesheet" type="text/css"/>
 		<link href="<?php echo $BASE_PATH;?>/assets/css/custom.css" rel="stylesheet" type="text/css" media="all">	
+		
+	
 	</head>
 	<body>
 		<div id="to-top">

@@ -103,10 +103,12 @@ width: 100% !important;
    font-style: italic;
   padding-top: 10px;
   text-align: justify;
+
 }
 .testimonials
 {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .testimonial-author
 {

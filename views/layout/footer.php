@@ -71,12 +71,17 @@
 </div>
 		
 	<!--script-->
-	 <script src="<?php echo $BASE_PATH;?>/assets/js/jquery.min.js"></script>
-	<!-- js -->
+	  <!-- <script src="<?php //echo $BASE_PATH;?>/assets/js/jquery.min.js"></script>
+ --> 	<!-- js -->
+ <script type="text/javascript" src="<?php echo $BASE_PATH;?>/assets/js/jquery.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?php echo $BASE_PATH;?>/assets/css/simplePagination.css" />
+<script src="<?php echo $BASE_PATH;?>/assets/js/jquery.simplePagination.js"></script>
 	<script src="<?php echo $BASE_PATH;?>/assets/js/bootstrap.min.js"></script>
 	<!-- /js -->
 	<!--fonts-->
 
+	<script src="<?php echo $BASE_PATH;?>/assets/js/jquery.simplePagination.js"></script>
 	<!--/fonts-->
 	<script src="<?php echo $BASE_PATH;?>/assets/lib/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
 	<script src="<?php echo $BASE_PATH;?>/assets/js/modernizr.custom.js"></script>
@@ -84,8 +89,8 @@
 	<script type="text/javascript" src="<?php echo $BASE_PATH;?>/assets/js/move-top.js"></script>
 	<script type="text/javascript" src="<?php echo $BASE_PATH;?>/assets/js/easing.js"></script>
 	<!--script-->
-		 </script>
-		 <script type="text/javascript" src="<?php echo $BASE_PATH;?>/backend/sbadmin/dist/js/jquery-ui.min.js"></script>
+		 
+	<script type="text/javascript" src="<?php echo $BASE_PATH;?>/backend/sbadmin/dist/js/jquery-ui.min.js"></script>
 	<script type="text/javascript">
 $(document).ready(function() {
 
@@ -178,6 +183,17 @@ function validateEmail(email) {
 			'maxWidth' :100%;
 			'maxHeight' :100%;
 		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('.pagination').pagination({
+		        items: <?php echo $count;?>,
+		        itemsOnPage: <?php echo $limit;?>,
+		        cssStyle: 'light-theme',
+				currentPage : <?php echo $page;?>,
+				hrefTextPrefix : '<?php echo $BASE_PATH; ?>/index.php?a=site/gallery&page='
+		    });
+			});
 	</script>
 	</body>
 </html>
