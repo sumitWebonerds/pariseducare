@@ -6,9 +6,7 @@ if(isset($_GET['id'])){
 ?>
 <div class="col-md-12">
 <div class="panel panel-default">
-	<div class="panel panel-heading">
-		student Form
-	</div>
+	<div class="panel panel-heading">student Form</div>
 	<div class="panel-body">
 	<form action="<?php echo $_SERVER['REQUEST_URI'];?>" name="submitfrm" method="post" enctype="multipart/form-data" novalidate>
 		<div class="col-md-12 form-group">

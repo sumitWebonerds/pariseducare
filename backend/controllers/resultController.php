@@ -80,5 +80,14 @@ class ResultController extends BaseController{
 		$result=$model->findAll();
 		$this->render("result/list",array('result'=>$result));
 	}
+	public function actionView(){
+	$model=new Result();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$result=$model->findByPk($id);
+	$this->render('result/view',array("result"=>$result));
+} 
 }
 ?>

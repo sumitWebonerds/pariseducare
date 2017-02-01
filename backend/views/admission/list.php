@@ -37,7 +37,7 @@
 				
 				
 				<td>
-					<a href="<?php echo $BASE_PATH;?>/index.php?a=site/reports&id=<?php echo $admission['id'];?>" target="_BLANK" class="btn btn-primary">Check Report</a>
+					<a href="<?php echo $BASE_PATH;?>/index.php?a=site/reports&id=<?php echo $admission['id'];?>" target="_BLANK" class="btn btn-primary">Report</a>
 
 				</td>
 				<td>
