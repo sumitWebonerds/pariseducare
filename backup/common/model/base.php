@@ -11,7 +11,15 @@ class Base{
 
 	function __construct(){
 
-		$this->conn = new PDO("mysql:host=localhost;dbname=parisedu_pdaycare_db",'parisedu_care','PariS123');
+		if($_SERVER['HTTP_HOST'] != 'localhost')
+		{
+			$this->conn = new PDO("mysql:host=localhost;dbname=parisedu_pdaycare_db",'parisedu_care','PariS123');
+		}else{
+
+			$this->conn = new PDO("mysql:host=localhost;dbname=parisedu_pdaycare_db",'parisedu_care','PariS123');
+
+		}
+
 		//$this->conn = new PDO("mysql:host=localhost;dbname=daycare_db",'root','password');
 		//session_start();
 

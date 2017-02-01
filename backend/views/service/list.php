@@ -21,6 +21,8 @@
 				<td>	
 					<a href="<?php echo HTML::url('service/create',array('id'=>$service['id']));?>"><i class="glyphicon glyphicon-pencil"></i></a>
 					<a href="<?php echo HTML::url('service/delete',array('id'=>$service['id']));?>"><i class="glyphicon glyphicon-trash"></i></a>
+					<a href="<?php echo HTML::url('service/view',array('id'=>$service['id']));?>"><i class="glyphicon glyphicon-eye-open"></i></a>
+
 				</td>
 		</tr>
 
