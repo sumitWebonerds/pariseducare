@@ -82,6 +82,15 @@ class GalleryController extends BaseController{
 		$gallery=$model->findAll();
 		$this->render("gallery/list",array("gallery"=>$gallery));
 	}
+	public function actionView(){
+	$model=new Gallery();
+	$model->id =$_GET['id'];
+	//print_r($model);
+    //exit;
+	$id = $model->id;
+	$gallery=$model->findByPk($id);
+	$this->render('gallery/view',array("gallery"=>$gallery));
+} 
 
 
 }

@@ -32,7 +32,7 @@
 				<td><?php echo $coaching['subject'];?></td>
 
 				<td>
-					<a href="<?php echo $BASE_PATH;?> /index.php?a=site/reports&coaching_id=<?php echo $coaching['id'];?>" target='_BLANK' class="btn btn-info btn-xs">Check Report</a>
+					<a href="<?php echo $BASE_PATH;?> /index.php?a=site/reports&coaching_id=<?php echo $coaching['id'];?>" target='_BLANK' class="btn btn-primary btn-xs">Report</a>
 				</td>
 				<td>	
 					<a href="<?php echo HTML::url('coaching/create',array('id'=>$coaching['id']));?>" ><i class="glyphicon glyphicon-pencil"></i></a>
