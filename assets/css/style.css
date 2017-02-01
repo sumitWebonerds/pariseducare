@@ -460,7 +460,7 @@ fieldset#body {
   min-height: 280px;
 
 }
-.services-text h3
+.services-text h3 , .testimonial-text h3 , .gallery-text h3 
 {
   color: #797979;
   font-size: 40px;
@@ -506,13 +506,7 @@ fieldset#body {
 .effect-grid {
     padding: 7em 0;
 }
-.gallery-text h3
-{
-  color: #797979;
-  font-size: 40px;
-  font-weight: 300;
-  margin: 0; 
-}
+
 /*-- testimonial --*/
 .panel-heading > div 
 {
@@ -798,7 +792,7 @@ color: #FFFFFF;
 .about-content p
 {
   text-align: justify;
-  line-height: 18px;
+  line-height: 30px;
   color: #A9A9A9;
 }
 .about-content h3
@@ -1277,16 +1271,18 @@ ul.p_n-list li a:hover{
 	.testimonials {
 	    margin-bottom: 0em;
 	    padding: 1em 0 0em;
-	   min-height: 265px;
+	   
 	}
-  .testimonial-grids
+  .testimonial-grid
   {
-    min-height: 250px;
+    min-height: 300px;
   }
   .testi-info p
   {
-      min-height: 250px;
+      min-height: 170px;
+
   }
+
 	.team-grid h4 {
 	    font-size: 1.1em;
 	}
@@ -2467,25 +2463,30 @@ ul.p_n-list li a:hover{
 {
   text-align: justify;
   color: #A9A9A9;
-  line-height: 18px;
+  line-height: 30px;
 }
 
 .news-img
 {
   width :100%;
-  height: 400px;
+  height:auto;
 
 }
 .news-photo
 {
   padding-top: 10px;
 }
-.news-content ,.date-time-1
+.news-content,.date-time-1
 {
   text-align: justify;
   font-size: 18px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-left: 10px;
 }
+
+
 a .similar-img
 {
   width :30%;
@@ -2519,9 +2520,9 @@ a .similar-img
 .service-name
 {
   
-  width: 140px;
-  height: 140px;
-  border-radius: 70px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   margin-top: 20px;
   background-color: #C0C0C0;
 }

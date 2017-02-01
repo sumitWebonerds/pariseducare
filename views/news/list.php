@@ -7,7 +7,7 @@
 					<h3><?= $news['title'] ?></h3>
 				</div>
 				<div class="news-photo">
-					<img src="upload/news/<?= $news['file_name']?>" class="img-responsive thumbnail news-img">
+					<img src="upload/news/<?= $news['file_name']?>" class="img-responsive news-img">
 				</div>
 				<div class="news-content">
 					<?= $news['content'] ?>
@@ -28,13 +28,13 @@
 					?>
 
 					
-					<a href="<?php echo HTML::url("news/list",array('id'=>$similar['id']));?>"><img src="upload/news/<?= $similar['file_name']?>" class="img-responsive thumbnail similar-img"></a>
+					<a href="<?php echo HTML::url("news/list",array('id'=>$similar['id']));?>"><img src="upload/news/<?= $similar['file_name']?>" class="img-responsive  similar-img"></a>
 					<a href="<?php echo HTML::url("news/list",array('id'=>$similar['id']));?>" class="pull-left similar-news-title"><?php if(strlen($similar['title'])<=25){
 											echo substr($similar['title'],0,25);	
 										}else{
 											echo substr($similar['title'],0,25)." [...]";
-										}?></a><!-- 
-					<a href="<?php echo HTML::url("news/list",array('id'=>$news['id']));?>" class="pull-right smiliar-read">Read More</a> -->
+										}?></a> 
+					<!-- <a href="<?php echo HTML::url("news/list",array('id'=>$news['id']));?>" class="pull-right smiliar-read">Read More</a> --> 
 					<?php
 				}
 						}

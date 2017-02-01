@@ -28,4 +28,11 @@
 		?>
 		</div>
 	</div>
+	<?php
+							$pagLink = "<nav><ul class='pagination'>";  
+							for ($i=1; $i<=$total_pages; $i++) {  
+				             	$pagLink .= "<li><a href='{$BASE_PATH}/index.php?a=site/news&page=".$i."'>".$i."</a></li>";  
+							};  
+							echo $pagLink . "</ul></nav>";
+						?>
 </div>

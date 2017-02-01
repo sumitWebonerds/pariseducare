@@ -50,14 +50,32 @@ class SiteController extends BaseController{
 	}
 	function actionGallery(){
 		$model=new Gallery();
-		$gallery=$model->findAll();
-		$this->render("site/gallery",array("gallery"=>$gallery));
+		$limit = 12;
+		if (isset($_GET["page"])){ $page  = $_GET["page"]; } else { $page=1; };  
+		$start_from = ($page-1) * $limit; 
+		$gallery=$model->findAllByLimitAsc($start_from,$limit);
+		$count=$model->countPage();
+		$total_pages = ceil($count/ $limit);
+//		echo $total_pages;exit;
+		//print_r($gallery);
+		//$gallery=$model->findAll();
+		$this->render("site/gallery",array("gallery"=>$gallery,"limit"=>$limit,"page"=>$page,"total_pages"=>$total_pages,"count"=>$count));
 	}
 
 	function actionTestimonial(){
 			$model= new Testimonial();
-			$testimonial=$model->findAll();
-			$this->render("site/testinomial",array("testimonial"=>$testimonial));
+			$limit = 6;
+			if (isset($_GET["page"])){ $page  = $_GET["page"]; } else { $page=1; };  
+			$start_from = ($page-1) * $limit; 
+			$testimonial=$model->findAllByLimitAsc($start_from,$limit);
+			$count=$model->countPage();
+			$total_pages = ceil($count/ $limit);
+//		echo $total_pages;exit;
+		//print_r($gallery);
+		//$gallery=$model->findAll();
+		$this->render("site/testimonial",array("testimonial"=>$testimonial,"limit"=>$limit,"page"=>$page,"total_pages"=>$total_pages,"count"=>$count));
+			//$testimonial=$model->findAll();
+			//$this->render("site/testinomial",array("testimonial"=>$testimonial));
 			
 	}
 	function actionResult(){
@@ -75,8 +93,18 @@ class SiteController extends BaseController{
 
 	function actionNews(){
 		$model=new News();
-		$news=$model->findAll();
-		$this->render("site/news",array("news"=>$news));
+		$limit = 5;
+		if (isset($_GET["page"])){ $page  = $_GET["page"]; } else { $page=1; };  
+		$start_from = ($page-1) * $limit; 
+		$news=$model->findAllByLimitAsc($start_from,$limit);
+		$count=$model->countPage();
+		$total_pages = ceil($count/ $limit);
+//		echo $total_pages;exit;
+		//print_r($gallery);
+		//$gallery=$model->findAll();
+		$this->render("site/news",array("news"=>$news,"limit"=>$limit,"page"=>$page,"total_pages"=>$total_pages,"count"=>$count));
+		//$news=$model->findAll();
+		//$this->render("site/news",array("news"=>$news));
 	}
 
 	function actionCrons(){

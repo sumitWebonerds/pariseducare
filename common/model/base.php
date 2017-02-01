@@ -225,7 +225,7 @@ public function update()
 			print_r($e); 
 		}
 	}
-		public function getCount($status,$date){
+	public function getCount($status,$date){
 		try{
 			$tableName = $this->tableName(); 
 			$sql = "SELECT count(*) FROM {$tableName} WHERE status='{$status}' AND report_of_date = '{$date}' "; 
@@ -257,24 +257,33 @@ public function update()
 			print_r($e); 
 		}
 	}
-	// public function findByRange($id,$from_date,$to_date)
-	// {
-	// 	try{
-			
-	// 			$statement =  $this->conn->prepare("select * from {$this->tableName()} where tracking_no={$id} and report_of_date between '{$from_date}' AND '{$to_date}'"); 
-				
-	// 			$statement->execute(); 
-	    		
-	//     		$result = $statement->setFetchMode(PDO::FETCH_ASSOC); 
+	public function findAllByLimitAsc($start_from,$limit)
+	{
+		try{
+				$statement =  $this->conn->prepare("select * from {$this->tableName()} ORDER BY id ASC LIMIT   {$start_from},{$limit}");
+				// print_r($statement);exit; 
+				$statement->execute(); 
+	    		$result = $statement->setFetchMode(PDO::FETCH_ASSOC); 
 
-	//     		print_r($statement->fetchAll());exit;
-	// 			return $statement->fetchAll(); 
+				return $statement->fetchAll(); 
 			
-	// 	}catch(PDOException $e)
-	// 	{
-	// 		print_r($e); 
-	// 	}
-	// }
+		}catch(PDOException $e)
+		{
+			print_r($e); 
+		}
+	}
+	public function countPage(){
+		try{
+			$tableName = $this->tableName(); 
+			$sql = "SELECT count(id) FROM {$tableName}"; 
+			$statement = $this->conn->prepare($sql); 
+			$statement->execute(); 
+		return	$number_of_rows = $statement->fetchColumn();
+		}catch(PDOException $e)
+		{
+			print_r($e); 
+		}
+	}
 
 
 }

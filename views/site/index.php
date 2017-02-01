@@ -21,7 +21,7 @@
               </div>        
           <?php $i++; } ?>
           <ol class="carousel-indicators">
-          <?php for($j=0;$j<=$i;$j++){ ?>
+          <?php for($j=0;$j<$i;$j++){ ?>
           
             <li data-target="#myCarousel" data-slide-to="<?php echo $j ;?>" ></li>
          
@@ -110,7 +110,7 @@
 			<div class="container">
 				<div class="testimonials">
 
-					<div class="testimonial-nfo">
+					<div class="testimonial-text">
 							<h3>Testimonials</h3>	
 						</div>
 						<div class="testimonal-grids">
@@ -120,7 +120,7 @@
 									<p><span>&#34;</span>
 										<?php
 										if(strlen($testimonial['content'])>30){
-										 echo substr($testimonial['content'],0,300);
+										 echo substr($testimonial['content'],0,200);
 										}?>
 									</p>
 									<p style="font-size:20px; text-align:right;"><?php echo $testimonial['author']?></p>					
@@ -128,8 +128,8 @@
 							</div>
 							<?php } ?>
 						</div>
-						<div class="pull-right">
-							<a href="<?php echo url::to("site/testimonial")?>">View More >></a>
+						<div class="pull-right btn-readmore">
+							<a href="<?php echo url::to("site/testimonial")?>" class="btn btn-default ">View More >></a>
 						</div>		
 				</div>
 			</div>
