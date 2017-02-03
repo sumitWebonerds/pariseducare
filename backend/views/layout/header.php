@@ -55,7 +55,7 @@ include ("../constants.php");
                             <a href="<?php echo url::to("site/index");?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="<?php echo url::to('slider/list')?>"><i class="fa fa-bar-chart-o fa-fw"></i>slider</a>
+                            <a href="<?php echo url::to('slider/list')?>"><i class="fa fa-bar-chart-o fa-fw"></i> Slider</a>
                             <!-- <ul class="nav nav-second-level">
                                 <li>
                                     <a href="<?php //echo url::to('slider/list')?>">Index</a>
@@ -66,7 +66,7 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                         <li>
-                            <a href="<?php echo url::to('testimonials/list')?>"><i class=""></i>Testimonials</a>
+                            <a href="<?php echo url::to('testimonials/list')?>"><i class="fa fa-quote-left"></i> Testimonials</a>
                             <!-- <ul class="nav nav-second-level">
                                 <li>
                                     <a href="<?php //echo url::to('testimonials/list');?>">Index</a>
@@ -77,7 +77,7 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                          <li>
-                            <a href="<?php echo url::to('news/list');?>"><i class=""></i>News</a>
+                            <a href="<?php echo url::to('news/list');?>"> <i class="fa fa-newspaper-o"></i> News</a>
                             <!-- <ul class="nav nav-second-level">
                                 <li>
                                     <a href="<?php //echo url::to('news/list');?>">Index</a>
@@ -88,10 +88,10 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                          <li>
-                            <a href="<?php echo url::to('service/list');?>"><i class=""></i>Services</a>
+                            <a href="<?php echo url::to('service/list');?>"><i class="fa fa-cog"></i> Services</a>
                         </li>
                         <li>
-                            <a href="<?php echo url::to('gallery/list');?>"><i class=""></i>Gallery</a>
+                            <a href="<?php echo url::to('gallery/list');?>"><i class="fa fa-picture-o"></i> Gallery</a>
                             <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -103,7 +103,7 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                         <li>
-                            <a href="<?php echo url::to('result/list');?>"><i class=""></i>Result</a>
+                            <a href="<?php echo url::to('result/list');?>"><i class="fa fa-file-text-o"></i> Result</a>
                             <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -115,7 +115,8 @@ include ("../constants.php");
                             </ul>
  -->                        </li>
                         <li>
-                            <a href="<?php echo url::to('admission/list');?>"><i class=""></i>Admission</a>
+                            <a href="<?php echo url::to('admission/list');?>">
+                            <i class="fa fa-list-alt"></i> Admission</a>
                             <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -127,7 +128,7 @@ include ("../constants.php");
                             </ul>
                      -->    </li>
                         <li>
-                            <a href="<?php echo url::to('coaching/list');?>"><i class=""></i>Coaching Form</a>
+                            <a href="<?php echo url::to('coaching/list');?>"><i class="fa fa-file-text"></i> Coaching Form</a>
                             <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -139,7 +140,8 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                         <li>
-                            <a href="<?php echo url::to('subscribe/list');?>"><i class=""></i>Subscribe</a>
+                            <a href="<?php echo url::to('subscribe/list');?>">
+                            <i class="fa fa-hand-o-up"></i> Subscribe</a>
                             <!-- <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -148,13 +150,15 @@ include ("../constants.php");
                             </ul> -->
                         </li>
                         <li>
-                            <a href="<?php echo url::to('attendence/form');?>"><i class=""></i>Attendence Report<span class="fa arrow"></span></a>
+                            <a href="<?php echo url::to('attendence/form');?>"><i class="fa fa-file"></i>  Attendence Report<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo url::to('attendence/form');?>">Upload</a>
+                                    <a href="<?php echo url::to('attendence/form');?>"><i class="fa fa-upload"></i>
+                                    Upload</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo url::to('attendence/list');?>">Display</a>
+                                    <a href="<?php echo url::to('attendence/list');?>"><i class="fa fa-desktop"></i>
+                                    Display</a>
                                 </li>
                             </ul>
                         </li>
